@@ -1,54 +1,59 @@
-BuildSentinel AI
+# BuildSentinel AI
 
-Agentic Construction Operations Copilot
+### Agentic Construction Operations System
 
-BuildSentinel AI is an AI-powered system for construction companies that analyzes project documents, BOQs, schedules, site reports, and invoices to detect project risks and help teams take action early.
+BuildSentinel AI is an AI-powered system for construction companies that analyzes project data and documents to identify **delays, cost issues, procurement risks, and contractual concerns**, then provides actionable recommendations.
 
-What It Does
+## Core Features
 
-* 📊 Project Analysis — compares planned vs. actual progress and costs.
-* 🚨 Risk Detection — identifies delays, cost overruns, procurement issues, and high-risk activities.
-* 📅 Schedule Intelligence — detects delayed activities and their potential project impact.
-* 📄 Contract RAG — answers questions from contracts and project documents with citations.
-* 🤖 Agentic AI — uses tools for cost, schedule, progress, and risk analysis.
-* ✅ Recommendations — suggests the next action for each identified risk.
-* 👤 Human-in-the-Loop — Project Managers can approve, edit, or reject AI recommendations.
-* 📝 Tasks & Audit Logs — tracks decisions, approvals, and actions.
+* **Project Risk Detection** — identifies high-risk activities and potential delays.
+* **Schedule Analysis** — compares planned vs. actual progress and detects schedule issues.
+* **Cost Intelligence** — analyzes planned vs. actual costs and detects cost overruns.
+* **Contract RAG** — retrieves relevant information from contracts, BOQs, and project documents with citations.
+* **Agentic AI** — uses specialized tools for project, cost, schedule, and risk analysis.
+* **Action Recommendations** — suggests the next action for identified risks.
+* **Human-in-the-Loop** — allows Project Managers to approve, edit, or reject recommendations.
+* **Tasks & Audit Logs** — tracks decisions, approvals, and actions.
 
-Core Workflow
+## Workflow
 
-Project Data + Documents
+```text
+Project Data & Documents
           ↓
-    Data Extraction
+     Data Extraction
           ↓
- Project Analysis
+ Project Data Analysis
           ↓
- Risk Detection + RAG
+  Risk Detection + RAG
           ↓
-   Agentic Analysis
+     Agentic Analysis
           ↓
- Recommendation
+   Recommendation
           ↓
- Human Approval
+   Human Approval
           ↓
- Task + Audit Log
+   Task + Audit Log
+```
 
-MVP
+## Input Data
 
-The MVP focuses on:
+* BOQs
+* Project Schedules
+* Site Reports
+* Invoices
+* Contracts
+* Project Specifications
+* Procurement Data
 
-* Project documents
-* BOQ analysis
-* Schedule analysis
-* Site reports
-* Invoice / cost analysis
-* Construction RAG
-* Risk detection
-* AI recommendations
-* Human approval
-* Task management
+## Tech Stack
 
-Tech Stack
+**Python · FastAPI · RAG · LLMs · LangGraph · Vector Database · PostgreSQL · React · Docker**
+
+## Project Goal
+
+To help construction teams **detect project problems early, understand their potential impact, and take appropriate action before they become major issues.**
+
+> **AI-assisted decision support for construction project operations.**
 
 Python · FastAPI · RAG · Vector Database · LLMs · LangGraph · PostgreSQL · React · Docker
 
